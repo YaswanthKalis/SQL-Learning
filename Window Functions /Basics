@@ -1,0 +1,8 @@
+Window functions perform calculations across a set of rows related to the current row
+without reducing the number of rows returned.
+
+## Syntax
+function_name() OVER (
+  PARTITION BY column
+  ORDER BY column
+)
